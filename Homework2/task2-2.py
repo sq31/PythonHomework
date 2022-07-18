@@ -30,9 +30,9 @@ def PrintFactorial(value):
 
 
 try:
-    number = int(input('Введите число: '))
+    number = int(input('Введите число N: '))
     print(f'Пусть N = {number}, тогда ', end='')
     Factorial(number)
     PrintFactorial(number)
 except:
-    print('Ошибка! Введено не целочисленное значение!')
+    print('Введите целое число!')
